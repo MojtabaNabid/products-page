@@ -24,6 +24,14 @@
             <button class="priceButton">Search</button>
         </div>
 
+        <div class="range">
+            <!-- <label for="priceRange">Price Range: </label> -->
+            <span id="minValue"></span>
+            <input type="range" id="priceRange" min="0" value="0" class="priceRange"/>
+            <span id="maxValue"></span>
+        </div>
+        <p>Current Range: 0 - <span id="currentValue"></span></p>
+
         <div class="products">
             <div class="cart tech">
                 <img src="./img/iphone.png" alt="apple iphone 14 pro">
@@ -53,7 +61,7 @@
             <div class="cart health">
                 <img src="./img/shampoo.png" alt="keratin hair care">
                 <p class="productName">Keratin Hair Care</p>
-                <p class="price"># 39</p>
+                <p class="price">$ 39</p>
             </div>
             <div class="cart tech">
                 <img src="./img/airpods.png" alt="apple airpods pro">

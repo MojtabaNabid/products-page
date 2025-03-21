@@ -47,6 +47,20 @@ button {
     font-size: 1em;
 }
 
+.range {
+    /* margin: 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.priceRange {
+    width: 30%;
+    margin: 0 1rem;
+}
+
+
 div.products {
     display: flex;
     justify-content: flex-start;
